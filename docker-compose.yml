@@ -1,0 +1,10 @@
+version: '3'
+services:
+  google_api:
+    image: ruby:3.0.2
+    container_name: google_api
+    env_file: .env
+    tty: true
+    volumes:
+      - .:/root/google_natural_language_api_sandbox
+    working_dir: /root/google_natural_language_api_sandbox
