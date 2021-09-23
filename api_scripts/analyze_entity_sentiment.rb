@@ -5,3 +5,25 @@ document = { content: "Hello, world!", type: :PLAIN_TEXT }
 response = language_service_client.analyze_entity_sentiment document: document
 
 pp response
+
+# 結果: world→common
+# <Google::Cloud::Language::V1::AnalyzeEntitiesResponse: 
+#   entities: [
+#     <Google::Cloud::Language::V1::Entity: 
+#       name: "world", 
+#       type: :LOCATION, 
+#       metadata: {}, 
+#       salience: 1.0, 
+#       mentions: [
+#         <Google::Cloud::Language::V1::EntityMention: 
+#           text: <Google::Cloud::Language::V1::TextSpan: 
+#             content: "world", 
+#             begin_offset: -1
+#           >, 
+#           type: :COMMON
+#         >
+#       ]
+#     >
+#   ], 
+#   language: "en"
+# >
