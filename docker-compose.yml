@@ -6,5 +6,5 @@ services:
     env_file: .env
     tty: true
     volumes:
-      - .:/root/google_natural_language_api_sandbox
-    working_dir: /root/google_natural_language_api_sandbox
+      - .:/root/google_api_sandbox
+    working_dir: /root/google_api_sandbox
