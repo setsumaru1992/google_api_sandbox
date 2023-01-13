@@ -1,5 +1,5 @@
 .env
-credentials/
-!credentials/.gitkeep
+/credentials/
+!/credentials/.gitkeep
 
 .idea/
