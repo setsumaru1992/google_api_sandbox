@@ -2,4 +2,7 @@
 /credentials/
 !/credentials/.gitkeep
 
+upload_images/
+!upload_images/.gitkeep
+
 .idea/
