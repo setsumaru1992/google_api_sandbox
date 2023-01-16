@@ -6,3 +6,4 @@ upload_images/
 !upload_images/.gitkeep
 
 .idea/
+.DS_Store
